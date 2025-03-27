@@ -290,7 +290,7 @@ section.section-2 {
   margin-bottom: var(--section-separator);
 }
 .section-2-content-wrapper {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .section-2-wrapper > h3 {
