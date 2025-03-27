@@ -211,6 +211,11 @@ nav .humber ul li a {
 }
 /* responsive-header-top */
 @media screen and (max-width: 1250px) {
+  .header-top nav > ul {
+    gap: var(--section-responsive-md-separator);
+  }
+}
+@media screen and (max-width: 850px) {
   nav .humber {
     display: block;
   }
