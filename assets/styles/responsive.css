@@ -1,0 +1,164 @@
+@media screen and (max-width: 1190px) {
+    .testimonial-card {
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: 1090px) {
+    /* testimonials */
+    .testimonials h3,
+    .destination-steps h3 {
+      font-size: var(--md-text-font-size);
+    }
+    .testimonial-content-into p,
+    .testimonial-content p,
+    .testimonial-content div span,
+    .testimonial-content-into div span,
+    .testimonials h5,
+    .steps-content p {
+      font-size: var(--mobile-mini-text-font-size);
+    }
+    .testimonial-content div h4,
+    .testimonial-content-into div h4 {
+      font-size: var(--mobile-mini-text-font-size);
+      font-weight: 600;
+    }
+  }
+  @media screen and (max-width: 945px) {
+    /* header-content */
+    .header-content {
+      flex-direction: column;
+      gap: var(--section-responsive-md-separator);
+    }
+    .header-content > div {
+      align-items: center;
+      text-align: center;
+    }
+    .header-content-text > span,
+    .header-content-text p,
+    .header-content-text button,
+    .header-content-text a {
+      font-size: var(--mobile-mini-text-font-size);
+    }
+    .header-content-text h1 {
+      font-size: var(--subheading-font-size);
+    }
+    .header-content-text {
+      gap: var(--section-responsive-md-separator);
+    }
+    /* category */
+    .red-toggle {
+      bottom: -14px;
+    }
+    .section-1-content-items-wrapper:nth-child(1),
+    .section-1-content-items-wrapper {
+      justify-content: center;
+    }
+    .section-1-content-wrapper {
+      flex-direction: column;
+    }
+    /* destinations  */
+    .section-2-content-wrapper {
+      gap: var(--section-responsive-md-separator);
+      flex-direction: column;
+      align-items: center;
+    }
+    .section-2-content-item {
+      width: 70%;
+    }
+    .destination-steps h3 {
+      text-align: center;
+    }
+    .destination-steps span {
+      display: block;
+      text-align: center;
+    }
+  
+    /* book-your-next-trip */
+    .section-3-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* testimonials */
+    .testimonials-wrapper {
+      flex-direction: column;
+      gap: var(--section-responsive-md-separator);
+      width: 50%;
+    }
+    .testimonials .pagin {
+      gap: var(--section-responsive-sm-separator);
+      text-align: center;
+    }
+    .testimonial-card-wrapper {
+      margin-top: var(--section-responsive-md-separator);
+    }
+    /* sponsers-logos */
+    .sponsers {
+      flex-direction: column;
+      gap: var(--section-responsive-md-separator);
+    }
+  
+    /* email-contact */
+    .email-contact h4 {
+      font-size: var(--md-text-font-size);
+    }
+    /* footer */
+    .social-networks {
+      gap: var(--section-responsive-md-separator);
+    }
+  }
+  @media screen and (max-width: 678px) {
+    /* testimonial */
+    .testimonial-card-wrapper .avatar {
+      left: -2px;
+    }
+    .testimonial-content-into {
+      left: -10px;
+    }
+  
+    /*header-top  */
+    nav .humber ul {
+      font-size: var(--mobile-mini-text-font-size);
+    }
+    /* header-content */
+    .header-content-text h1 {
+      font-size: var(--md-text-font-size);
+    }
+    .header-content-text h1 span img {
+      bottom: 3px;
+      left: -26px;
+    }
+    .header-content .header-content-text {
+      gap: var(--section-responsive-sm-separator);
+    }
+    /* email-contact */
+    .email-contact h4 {
+      font-size: var(--mobile-mini-text-font-size);
+    }
+    .email-contact form input {
+      margin-bottom: var(--section-responsive-xs-separator);
+      font-size: var(--mobile-mini-text-font-size);
+    }
+    /*category  */
+    .section-1-wrapper > h3 {
+      font-size: var(--md-text-font-size);
+    }
+    /* destinations  */
+    .section-2-wrapper > h3 {
+      font-size: var(--md-text-font-size);
+    }
+    .section-2-content-datail div {
+      font-size: var(--mobile-mini-text-font-size);
+    }
+    /* book-your-next-trip */
+    .current-conditions {
+      right: 2px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    /*category  */
+    .section-1-content-items-wrapper .section-1-content-item {
+      flex-basis: 100%;
+    }
+  }
+  

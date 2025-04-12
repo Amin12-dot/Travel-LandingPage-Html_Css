@@ -1,0 +1,111 @@
+.footer {
+    padding: var(--section-separator) 0;
+    background-color: var(--white);
+  }
+  .footer-wrapper {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .site-name-and-describe {
+    max-width: 200px;
+  }
+  .site-name-and-describe li:first-child a {
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    font-size: calc(0.8 * var(--subheading-font-size));
+    margin-bottom: var(--section-mini-separator);
+    font-weight: 700;
+  }
+  .site-name-and-describe li:last-child {
+    color: var(--light-gray);
+    font-size: var(--mobile-mini-text-font-size);
+  }
+  .footer-wrapper ul li {
+    margin-bottom: var(--section-responsive-sm-separator);
+  }
+  .footer-wrapper ul li a {
+    color: var(--light-gray);
+  }
+  .footer-wrapper ul li:first-child {
+    margin-bottom: var(--section-mini-separator);
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  .social-networks {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .social-networks .socials {
+    gap: var(--section-mini-separator);
+  }
+  .facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url('../img/Facebook Icon.png');
+    background-color: var(--white);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  .instagram {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url('../img/instagram 1.png'),
+      conic-gradient(red, yellow, violet);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  .Twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url('../img/Vector.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  .plugin {
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .plugin .google-play,
+  .plugin .ios {
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    align-items: center;
+    white-space: nowrap;
+    width: 120px;
+  }
+  .plugin .google-play svg,
+  .plugin .ios svg {
+    width: 25px;
+    height: 25px;
+  }
+  .plugin .google-play h5,
+  .plugin .ios h5 {
+    font-size: var(--mobile-mini-text-font-size);
+    color: var(--white);
+  }
+  .plugin .google-play span {
+    font-size: var(--mobile-mini-text-font-size);
+    color: var(--light-gray);
+  }
+  .plugin .ios span {
+    color: var(--white);
+  }
+  .plugin .google-play .title,
+  .plugin .ios .title {
+    flex-direction: column;
+    gap: 5px;
+  }
+  /* end */
+  .dev {
+    display: block;
+    text-align: center;
+    margin-top: 4rem;
+  }
