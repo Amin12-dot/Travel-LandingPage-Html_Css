@@ -168,7 +168,7 @@ nav .humber {
 }
 nav .humber ul {
   position: fixed;
-  width: 200px;
+  width: 35%;
   left: 0;
   top: 0;
   background: var(--white);
@@ -883,7 +883,6 @@ img.send-logo {
 
   /*header-top  */
   nav .humber ul {
-    width: 98px;
     font-size: var(--mobile-mini-text-font-size);
   }
   /* header-content */
